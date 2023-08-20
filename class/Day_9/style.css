@@ -1,0 +1,236 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+    .col-1{width: 8.3%;}
+    	
+
+    .col-2{width: 16.33%;}
+		
+  
+	.col-3{width: 25%;}
+		
+
+	.col-4{width: 33.33%;}
+		
+
+	.col-5{width: 41.66%;}
+		
+
+	.col-6{width: 50%;}
+		
+
+	.col-7{width: 58.33%;}
+		
+
+	.col-8{width: 66.66%;}
+		
+
+	.col-9 {width:75%;}
+	
+
+	.col-10 {width: 83.33%;}
+		
+
+	.col-11 {width: 91.66%;}
+		
+
+    .col-12 {width: 100%;}
+    	
+
+
+[class*='col-']
+{
+	border: 1px solid gray;
+	float: left;
+	
+}
+
+.row:after{
+	content: '';
+	clear: both;
+	display: block;
+}
+
+
+.container{
+	width: 90%;
+	height: auto;
+	margin: 0 auto;
+}
+
+.h-height{ height: 200px;}
+.m-height{height: 50px;}
+.body-height{min-height: 600px;}
+.big-f-height{height: 300px;}
+.footer-height{height: 400px;}
+
+
+@media screen and (max-width: 800px){
+
+
+
+	.col-m-1{width: 8.3%;}
+
+
+	.col-m-2{width: 16.33%;}
+
+
+	.col-m-3{width: 25%;}
+
+
+	.col-m-4{width: 33.33%;}
+
+
+	.col-m-5{width: 41.66%;}
+
+
+	.col-m-6{width: 50%;}
+
+
+	.col-m-7{width: 58.33%;}
+
+
+	.col-m-8{width: 66.66%;}
+
+
+	.col-m-9 {width:75%;}
+
+
+	.col-m-10 {width: 83.33%;}
+
+
+	.col-m-11 {width: 91.66%;}
+
+
+	.col-m-12 {width: 100%;}
+
+	
+
+}
+
+ .position-absolute{
+
+ 	position: absolute;
+ 	top: 0;
+ 	right: 0;
+ }
+.position-relative{
+	position: relative;
+}
+
+
+.box-one{
+  
+  height: 300px;
+  width: 500px;
+ 
+  background-color: green;
+  position: relative;
+  
+
+}
+
+.box-two{
+
+	 height: 200px;
+  width: 200px;
+ 
+  background-color: red;
+  position: absolute;
+  top: 50px;
+  left: 150px;
+  border-radius: 50%;
+  box-shadow: 5px 0px 0px 0px;
+
+
+
+
+}
+
+.box-three{
+	height: 200px;
+	width: 200px;
+	background-color: purple;
+}
+
+.box-three:hover{
+	background-color: orange;
+	transition: 2s;
+}
+
+.box-four{
+	height: 300px;
+	width: 499px;
+	background-color: black;
+	position: absolute;
+	animation-name: slide;
+	animation-duration: 3s;
+	animation-iteration-count: infinite ;
+
+}
+
+
+
+.position-relative{
+	position: relative;
+}
+
+
+
+@keyfrsmes slide{
+	0%{
+		left: 0;
+
+	}
+
+	50%{
+		left: 400px;
+	}
+	100%{
+		left: 0;
+	}
+}
+
+
+/*.div-one {
+	height: 300px;
+	width: 500px;
+	background-color: red;
+	position: fixed;
+	top:0px;
+	right:0px ;
+	bottom: ;
+	left: ;
+}
+
+.div-two{
+	height: 100px;
+	width: 100%;
+	background-color: tomato;
+	position: sticky;
+	top: 0px;
+
+}
+
+.div-three{
+	height: 200px;
+	width: 300px;
+	background-color: blue;
+	position: absolute;
+	right: 0px;
+	top: 10px;
+}
+
+
+.div-four{
+	height: 400px;
+	width: 600px;
+	background-color: red;
+	position: relative;
+
+}
+*/
+

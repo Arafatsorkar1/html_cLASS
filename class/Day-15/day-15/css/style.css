@@ -1,0 +1,48 @@
+.navbar .nav-item .dropdown-menu
+{
+    display: none;
+}
+
+.navbar .nav-item:hover .dropdown-menu
+{
+    display: block;
+}
+
+.my-caption
+{
+    height: 200px;
+    top:150px;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+
+.bg-orange{ background-color: #FF4800; }
+.bg-orange:hover
+{
+    background-color: #D93D00;
+    color: white;
+}
+
+.nav-link:hover
+{
+    background-color: #FF4800 ;
+    color: white;
+}
+
+
+.text-orange, .text-orange:hover { color: #FF4800; }
+.banner-section
+{
+    height: 500px;
+    background-image: url("../img/header.jpg");
+}
+
+.banner-card
+{
+    margin-top: 130px;
+    padding: 50px;
+}
+.free-quote-form
+{
+    padding: 75px;
+}

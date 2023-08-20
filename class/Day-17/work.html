@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+    <style type="text/css">
+        .line{
+    border: 2px solid purple;  
+}
+.drop{
+    height: 22px;
+    width: 150px;
+}
+.foot ul{
+    list-style: none;
+    display: inline-block;
+    padding-right: 120px;
+}
+
+.btnt{
+    height: 30px;
+    width: 70px;
+    background-color:aqua;
+    color:white;
+}
+.btnp{
+    height: 30px;
+    width: 70px;
+    background-color:blue;
+    color:white;
+}
+.btns{
+    height: 30px;
+    width: 70px;
+    background-color:sandybrown;
+    color:white;
+}
+.btnsm{
+    height: 30px;
+    width: 70px;
+    background-color:black;
+    color:white;
+}
+.foot ul:last-child{
+    padding-right: -120px !important;
+}
+    </style>
+</head>
+<body>
+
+<!--header start-->
+
+<header class="bg-light text-muted py-2">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <ul class="nav">
+                    <h3>Arafat</h3>
+                </ul>
+            </div>
+
+
+            <div class="col-sm-6">
+                <ul class="nav float-end">
+                    <li class="nav-item dropdown u-pro">
+                            <a class="nav-link dropdown-toggle waves-effect waves-dark profile-pic" href="#" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="../assets/images/users/1.jpg" alt="user" class=""> <span class="hidden-md-down">Mark <i class="fa fa-angle-down"></i></span> </a>
+                            <div class="dropdown-menu dropdown-menu-end animated flipInY">
+                                <!-- text-->
+                                <a href="javascript:void(0)" class="dropdown-item"><i class="ti-user"></i> My Profile</a>
+                                <!-- text-->
+                                <a href="javascript:void(0)" class="dropdown-item"><i class="ti-wallet"></i> My Balance</a>
+                                <!-- text-->
+                                <a href="javascript:void(0)" class="dropdown-item"><i class="ti-email"></i> Inbox</a>
+                                <!-- text-->
+                                <div class="dropdown-divider"></div>
+                                <!-- text-->
+                                <a href="javascript:void(0)" class="dropdown-item"><i class="ti-settings"></i> Account Setting</a>
+                                <!-- text-->
+                                <div class="dropdown-divider"></div>
+                                <!-- text-->
+                                <a href="login.html" class="dropdown-item"><i class="fa fa-power-off"></i> Logout</a>
+                                <!-- text-->
+                            </div>
+                        </li>
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+</header>
+
+<!--header End-->
+
+<!--menu start-->
+<div class="container">
+    <div class="row">
+        
+    
+  <div>
+        <form action="">
+            <label for="">
+                <i class="fa-solid fa-pen-to-square"></i>
+            </label>
+            <input type="text" placeholder="Cash Customer">
+
+            <span><i class="fa-solid fa-square-xmark"></i></span>
+            <input type="datetime-local" placeholder="23-05-2023">
+
+            <input type="text" placeholder="POS INVOICE">
+
+            <select name="" id="" class="drop">
+
+                <option value="">All Category</option>
+                <option value=""></option>
+            </select>
+            
+            <select name="" id="" class="drop">
+                <option value="">Main</option>
+                <option value=""></option>
+            </select>
+        </form>
+    </div>
+
+    </div>
+</div>
+
+<!-- <section class="bg-light">
+<div class="">
+
+    <div class="row mt-1" >
+        <div class="col-md-3"><input type="text" class="form-control" name="" placeholder="Cash Customer"></div>
+        
+
+
+        <div class="col-md-2"><input type="datetime-local" placeholder="23-05-2023"></div>
+
+
+        <div class="col-md-2">
+            <input type="text" placeholder="POS INVOICE">
+        </div>
+
+        <div class="col-md-2">
+            <select name="" id="" class="drop">
+                <option value="">All Category</option>
+                <option value=""></option>
+            </select>
+        </div>
+
+
+        <div class="col-md-3">
+            <select name="" id="" class="drop">
+                <option value="">Main</option>
+                <option value=""></option>
+            </select>
+        </div>
+
+
+    </div>
+    
+</div>
+</section>
+ -->
+
+
+<section class="mt-1 ">
+    <div class="row" style=" overflow: hidden; height: 500px;">
+        <div class="col-md-6 bg-light" style="border: 2px solid salmon;">hhh</div>
+         <div class="col-md-6"style="border: 2px solid salmon;">
+               <div class="">
+                <div class="row">
+
+                    <!-- Sales Card -->
+                
+                   
+
+                        <div class="card info-card sales-card mt-1 col-md-3 m-2" style="background: lavenderblush;">
+                            <div class="card-body">
+                                <h5 class="card-title"> Arafat</h5>
+                                <div class="d-flex align-items-center">
+                                    <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                                        <i class="bi bi-cart"></i>
+                                    </div>
+                                    <div class="ps-3">
+                                        <h6>100</h6>
+                                        <span class="text-success small pt-1 fw-bold">4.5</span> <span class="text-muted small pt-2 ps-1">stock</span>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                         <div class="card info-card sales-card mt-1 col-md-3 m-2" style="background: lavenderblush;">
+                            <div class="card-body">
+                                <h5 class="card-title"> Arafat</h5>
+                                <div class="d-flex align-items-center">
+                                    <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                                        <i class="bi bi-cart"></i>
+                                    </div>
+                                    <div class="ps-3">
+                                        <h6>100</h6>
+                                        <span class="text-success small pt-1 fw-bold">4.5</span> <span class="text-muted small pt-2 ps-1">stock</span>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                         <div class="card info-card sales-card mt-1 col-md-3 m-2" style="background: lavenderblush;">
+                            <div class="card-body">
+                                <h5 class="card-title"> Arafat</h5>
+                                <div class="d-flex align-items-center">
+                                    <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                                        <i class="bi bi-cart"></i>
+                                    </div>
+                                    <div class="ps-3">
+                                        <h6>100</h6>
+                                        <span class="text-success small pt-1 fw-bold">4.5</span> <span class="text-muted small pt-2 ps-1">stock</span>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                         <div class="card info-card sales-card mt-1 col-md-3 m-2" style="background: lavenderblush;">
+                            <div class="card-body">
+                                <h5 class="card-title"> Arafat</h5>
+                                <div class="d-flex align-items-center">
+                                    <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                                        <i class="bi bi-cart"></i>
+                                    </div>
+                                    <div class="ps-3">
+                                        <h6>100</h6>
+                                        <span class="text-success small pt-1 fw-bold">4.5</span> <span class="text-muted small pt-2 ps-1">stock</span>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+
+                        
+                            
+
+
+
+                             
+
+
+
+
+                        
+
+               
+
+
+
+
+
+
+
+                </div>
+            </div>
+         </div>
+    </div>
+</section>
+
+
+
+<div class="foot">
+        <ul>
+            <li>Subtotal:0</li>
+            <li>Vat:0</li>
+            <li>Discount:0</li>
+        </ul>
+        <ul>
+            <li>Shipping:0</li>
+            <li>Coupon:0</li>
+            <li>Payable:0</li>
+        </ul>
+        <ul>
+            <li>Wallet:0</li>
+            <li>Point:0</li>
+            <li>Gift Card:0</li>
+        </ul>
+        <ul>
+            <li>Paid:0</li>
+            <li>Due:0</li>
+            <li>Change:0</li>
+        </ul>
+        <ul class="btn">
+
+            <li><button class="btnt">Transact</button></li>
+            <li><button class="btns">Save</button></li>
+           
+        </ul>
+        <ul>
+            <li class="btn"><button class="btnp">Payment</button></li>
+            <li class="btn"><button class="btnsm">Submit</button></li>
+        </ul>
+    </div>
+
+
+
+
+
+
+<!--////////////-->
+
+<script src="js/jquery-3.6.3.min.js"></script>
+<script src="js/countMe.min.js"></script>
+<script src="js/bootstrap.bundle.js"></script>
+<script>
+    $(function () {
+        $(".count-1").countMe(40,40);
+        $(".count-2").countMe(40,15);
+        $(".count-3").countMe(40,10);
+        // alert('sdf');
+    })
+</script>
+</body>
+</html>

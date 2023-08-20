@@ -1,0 +1,159 @@
+
+/*.one{
+	height: 200px;
+	width: 20%;
+	background-color: royalblue;
+	float: left;
+	
+	
+
+}
+
+
+.two{
+	height: 200px;
+	width: 80%;
+	background-color: black;
+	float: left;
+	
+	
+	
+	
+}
+
+.three{
+	height: 50px;
+	width: 100%;
+	background-color:gray;
+	float: left;
+}
+
+.four{
+	height: 200px;
+	width: 20%;
+	float: left;
+	background-color: darkgrey;
+}
+.five{
+	height: 200px;
+	width: 80%;
+	background-color:rebeccapurple;
+	float: left;
+}
+
+.six{
+	height: 100px;
+	width: 25%;
+	background-color: brown;
+	float: left;
+
+}
+
+
+.sa{
+	height: 100px;
+	width: 25%;
+	background-color: green;
+	float: left;
+
+}
+.sav{
+	height: 100px;
+	width: 25%;
+	background-color: royalblue;
+	float: left;
+
+}
+.save{
+	height: 100px;
+	width: 25%;
+	background-color: black;
+	float: left;
+
+}
+.savenw{
+	height: 200px;
+	width: 100%;
+	background-color: blue;
+	float: left;
+}
+*/
+
+*{
+	box-sizing: border-box;
+}
+
+
+}
+    .col-1{width: 8.3%;
+    	/*border: 1xp solid gray;
+	float: left;*/
+}
+
+
+.col-2{width: 16.33%;
+		/*border: 1xp solid gray;
+	float: left;*/
+}
+	.col-3{width: 25%;
+		/*border: 1xp solid gray;
+	float: left;*/
+}
+	.col-4{width: 33.33%;
+		/*border: 1xp solid gray;
+	float: left;*/
+}
+	.col-5{width: 41.66%;
+		/*border: 1xp solid gray;
+	float: left;*/
+}
+	.col-6{width: 50%;
+		/*border: 1xp solid gray;
+	float: left;*/
+}
+	.col-7{width: 58.33%;
+		/*border: 1xp solid gray;
+	float: left;*/
+}
+	.col-8{width: 66.66%;
+		/*border: 1xp solid gray;
+	float: left;*/
+}
+	.col-9{width:75%;
+		/*border: 1xp solid gray;
+	float: left;*/
+}
+	.col-10{width: 83.33%;
+		/*border: 1xp solid gray;
+	float: left;*/
+}
+	.col-11{width: 91.66%;
+		/*border: 1xp solid gray;
+	float: left;*/
+}
+    .col-12{width: 100%;
+    	/*border: 1xp solid gray;
+	float: left;*/
+}
+
+
+[class*='col-']
+{
+	border: 1px solid gray;
+	float: left;
+	height: 20px;
+}
+
+
+.row:after{
+	content:'' ;
+	clear: both;
+	display: block;
+
+}
+
+.h-50{height: 50px;}
+.h-200{height: 200px;}
+.h-300{height: 300px;}
+.h-600{height: 600px;}
+
